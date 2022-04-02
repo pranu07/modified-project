@@ -3,11 +3,14 @@
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     margin-left: 0.5rem;
-    margin-right: 1rem;
+    margin-right: 2rem;
    }
    a{
-     color: #f7f7f7;
+     color:rgb(121, 154, 183);
      font-size: 2rem;
+   }
+   .navbar-brand:hover{
+     color: white;
    }
    form{
      margin-top: 15%;
@@ -33,8 +36,8 @@
    .field:not(:last-child) {
      margin-bottom: 2rem;
    }
-   .ForgetPwd{
-     color: #1b0ddb;
+   .ForgetPwd:hover{
+     color:#1b0ddb;
    }
    
    @media only screen and (max-width:600px){
