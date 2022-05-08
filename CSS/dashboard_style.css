@@ -1,0 +1,56 @@
+.navbar-brand img{
+    border-radius: 50%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 2rem;   
+}
+  
+  body{
+    background-color: lightcyan;
+}
+@media screen and (min-width: 992px ) {
+  .row h3{
+    font-size: 1.875rem;
+    text-align: center; 
+    color:gray;
+    margin-left:2.5rem;
+    margin-top: 0.625rem;
+  }
+  
+  .row img{
+    width: 11.875rem;
+    margin-left: 33%;
+  }
+  
+  /*.bottom_2 img{
+    width: 11.875rem;
+    margin: 0 35% 0 35%;
+  }*/
+
+  #Payslip,#text_1{
+    margin: 0% 20% 0% 40%;
+  }
+
+  #Settings,#text_2{
+    margin: 0% 50% 0% 20%;
+  }
+
+ 
+}
+@media screen and (max-width:992px){
+  .row img{
+    width: 11.875rem;
+    margin-left: 0.33rem;
+    align-items: center;
+  }
+  .row h3{
+    font-size: 1.875rem;
+    /*text-align: center; */
+    color:gray;
+    /*margin-left:0.15rem;*/
+    margin-top: 0.625rem;
+    margin-right: 20%;
+    margin-left: 10%;
+  }
+}
