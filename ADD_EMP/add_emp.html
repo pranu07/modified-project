@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration form</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/raleway-font.css">
+	<link rel="stylesheet" type="text/css" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+	<!-- Jquery -->
+	<link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+	<!-- Header start -->
+	<nav class="navbar-navbar-dark"  style="background-color: #294FCC";>
+    <a class="navbar-brand" href="dashboard.php"><img class="image1" src="/img/Logo.png"width=65 height="45">Home </a>
+   </nav>
+  <!--Header ends-->
+	<div class="page-content">
+		<div class="wizard-v1-content">
+			<div class="wizard-form">
+				  <div
+            style="background-color: #646561;width:100%;text-align:center;color: white;height:50px;margin-bottom: 20px;">
+            <p style="font-weight: bolder;margin-top: 2%;padding-top: 2%;">Add Employee</p>
+			    </div>
+		        <form class="form-register" id="form-register" action="#" method="post">
+		        	<div id="form-total">
+		        		<!-- SECTION 1 -->
+			            <h2>
+			            	<span class="step-icon"><i class="zmdi zmdi-account"></i></span>
+			            	<span class="step-number">Step 1</span>
+										<span class="step-text">Profile Infomation</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+												<div class="form-row">
+													<div class="form-holder">
+															<label for="username">Company*</label>
+															<select class='validation' type="text" name="FIRM" id="FIRM"required>
+																	<option value="TEE">TEE</option>
+																	<option value="SS">SS</option>
+															</select>
+													</div>
+													<div class=" form-holder">
+															<label for="text">Site_ID*</label>
+															<!-- <input type="text" name="SITE_ID" id="SITE_ID" /> -->
+															<select type="text" name="SITE_ID" id="SITE_ID">
+																<option value="TEEFAPL">TEEFAPL</option>
+																<option value="TEEFIL">TEEFIL</option>
+																<option value="TEEPCPL">TEEPCPL</option>
+																<option value="TEESCIL">TEESCIL</option>
+																<option value="TEEUSTKWPCL">TEEUSTKWPCL</option>	
+																<option value="TEEWLSPN">TEEWLSPN</option>
+																<option value="TESTSITE">TESTSITE</option>
+																<option value="TESTSITE2">TESTSITE2</option>
+															</select>
+													</div>
+											 </div>
+								      <div class="form-row">
+								      	<div class="form-holder">
+										      <label for="username">Name*</label>
+										      <input type="text"class="form-control" id="username" name="username" >
+									     </div>
+									     <div class="form-holder">
+										     <label for="Mobile">Mobile*</label>
+										     <input type="tel" class="form-control" id="Mobile" name="Mobile" >
+									     </div>
+								     </div>
+							    	 <div class="form-row">
+									     <div class="form-holder">
+										     <label for="username">Aadhar</label>
+										     <input type="text" class="form-control" id="Aadhar" name="Aadhar">
+									     </div>
+									     <div class="form-holder">
+									   	   <label for="username">Address</label>
+										     <input type="text" class="form-control" id="Address" name="Address">
+									     </div>
+								     </div>
+								     <div class="form-row">
+									      <div class="form-holder">
+										      <label for="PAN">PAN*</label>
+										      <input type="text" class="form-control" id="PAN" name="PAN" >
+									      </div>
+								     </div>
+							     </div>
+						     </section>
+						<!-- SECTION 2 -->
+			            <h2>
+			            	<span class="step-icon"><i class="zmdi zmdi-card"></i></span>
+			            	<span class="step-number">Step 2</span>
+                    <span class="step-text">Payment Infomation</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+												<div class="form-row">
+													<div class="form-holder">
+														<label for="username">UAN*</label>
+														<input type="text" class="form-control" id="UAN_NO" name="UAN_NO" >
+													</div>
+													<div class="form-holder">
+														<label for="text">ESIC*</label>
+														<input type="text" class="form-control" name="ESIC_NO" id="ESIC">
+													</div>
+												</div>
+												<div class="form-row">
+													<div class="form-holder">
+														<label for="username">Bank_ACC*</label>
+														<input type="text" class="form-control" id="Bank_ACC" name="Bank_ACC">
+													</div>
+													<div class="form-holder">
+														<label for="username">IFSC_Code*</label>
+														<input type="text" class="form-control" id="IFSC_CODE" name="IFSC_CODE">
+													</div>
+												</div>
+												<div class="form-row">
+													<div class="form-holder">
+														<label for="username">Bank_Name*</label>
+														<input type="text" class="form-control" id="BNK_NAME" name="BNK_NAME">
+													</div>
+													<div class="form-holder">
+														<label for="username">Bank_Address</label>
+														<input type="text" class="form-control" id="BNK_ADDRESS" name="BNK_ADDRESS">
+													</div>
+												</div>
+									</section>
+			            <!-- SECTION 3 -->
+			            <h2>
+			            	<span class="step-icon"><i class="zmdi zmdi-receipt"></i></span>
+			            	<span class="step-number">Step 3</span>
+			            	<span class="step-text">Company Information</span>
+			            </h2>
+			            <section>
+										<div class="inner">
+											<div class="form-row">
+													<div class="form-holder">
+														<label for="username">Designation*</label>
+														<input type="text"class="form-control" id="DESIGNATION" name="DESIGNATION">
+												 </div>
+												 <div class="form-holder">
+													  <label for="username">Category</label>
+													  <input type="text" class="form-control" id="CATEGORY" name="CATEGORY" >
+												 </div>
+										  </div>
+										  <div class="form-row">
+											  <div class="form-holder">
+												  <label for="username">Basic_Salary*</label>
+												  <input type="number"class="form-control" id="BASIC_SAL" name="BASIC_SAL">
+										    </div>
+										    <div class="form-holder">
+											    <label for="username">HRA*</label>
+											    <input type="number" class="form-control" id="HRA_SAL" name="HRA_SAL">
+										    </div>
+									    </div>
+									 <div class="form-row">
+										 <div class="form-holder">
+											 <label for="username">Allowance</label>
+											 <input type="number" class="form-control" id="SPL_ALLOW" name="SPL_ALLOW">
+										 </div>
+										 <div class="form-holder">
+												<label for="username">CTC :</label>
+												<label id="CTC" for="active"><b>Active</b></label>
+									   </div>
+									 </div>
+									 <div class="form-row">
+											<div class="form-holder">
+												<label id="STATUS" for="status">ESIC Choice</label>
+												<select class='validation' type="text" name="STATUS" id="STATUS">
+													<option value="Y">Calculate ESIC</option>
+													<option value="N">No ESIC</option>
+											  </select>
+											</div>
+									 </div>
+								 </div>
+							 </section>
+		        	</div>
+		        </form>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+	<script src="js/jquery.steps.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/valiation.js"></script>
+</body>
+</html>
